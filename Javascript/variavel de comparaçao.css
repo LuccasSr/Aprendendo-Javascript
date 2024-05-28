@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+h1#texto1{
+    text-align: center;
+    padding: 15px;
+
+}
+
+div#res{
+    text-align: center;
+}

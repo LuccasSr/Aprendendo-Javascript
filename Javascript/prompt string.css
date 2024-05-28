@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section#primeiro {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#res {
+  font-size: 20pt;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  background-color: rgb(130, 130, 247);
+
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  
+}
