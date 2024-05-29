@@ -16,8 +16,13 @@
 // let soma = Number(numero1) + Number(numero2)
 // resoluçao.innerHTML = `A soma do numero ${numero1} e ${numero2} <br> e igual a ${soma}`
 
-let numero1 = prompt(`Digite um numero:`)
-let numero2 = prompt(`Digite outro numero:`)
+// let numero1 = prompt(`Digite um numero:`)
+// let numero2 = prompt(`Digite outro numero:`)
+// let resultado = document.querySelector(`div#res`)
+// let soma = Number(numero1) + Number(numero2)
+// resultado.innerHTML = `A soma entre os numeros ${numero1} e ${numero2} é igual a ${soma}`
+let valor1 = prompt(`Digite um numero:`)
+let valor2 = prompt(`Digite outro numero:`)
 let resultado = document.querySelector(`div#res`)
-let soma = Number(numero1) + Number(numero2)
-resultado.innerHTML = `A soma entre os numeros ${numero1} e ${numero2} é igual a ${soma}`
+let soma = Number(valor1) + Number(valor2)
+resultado.innerHTML = `A soma entre os numeros ${valor1} + ${valor2}, é igual a ${soma} `

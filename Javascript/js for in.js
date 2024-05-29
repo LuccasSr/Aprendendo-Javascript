@@ -72,7 +72,13 @@
 //   console.log(`O valor ${valor[posicao]} esta na posiçao ${posicao}`)
 // }
 
+// const valor = [10, 20, 30, 40, 50]
+// for(let posicao in valor){
+//   console.log(`O valor ${valor[posicao]} esta na posiçao ${posicao}` )
+// }
+
+
 const valor = [10, 20, 30, 40, 50]
 for(let posicao in valor){
-  console.log(`O valor ${valor[posicao]} esta na posiçao ${posicao}` )
+  console.log(`O valor ${valor[posicao]} esta na posiçao ${posicao}`)
 }

@@ -6,6 +6,10 @@
 // let resoluçao = document.querySelector(`div#res`)
 // resoluçao.innerHTML = `É um prazer em te conhecer ${nome}`
 
+// let nome = prompt(`Digite seu nome:`)
+// let resultado = document.querySelector(`div#res`)
+// resultado.innerHTML = `É um prazer em te conhecer ${nome}!`
+
 let nome = prompt(`Digite seu nome:`)
 let resultado = document.querySelector(`div#res`)
-resultado.innerHTML = `É um prazer em te conhecer ${nome}!`
+resultado.innerHTML = `É um prazer ${nome}!`
