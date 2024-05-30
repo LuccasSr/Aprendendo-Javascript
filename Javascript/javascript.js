@@ -1,7 +1,7 @@
 function verificar(){
-    var numero = document.querySelector(`input#numero1`)
-    var resoluçao = document.querySelector(`div#res`)
-    numero = (numero.value)
+    let numero = document.querySelector(`input#numero1`).value
+    let resoluçao = document.querySelector(`div#res`)
+    
 
     if(numero <=5){
         resoluçao.innerHTML = `Entao ta`
