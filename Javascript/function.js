@@ -28,19 +28,23 @@
     
 // }
 
-function soma(){
-    let valor1 = 5
-    let valor2 = 5
-    let resultado = document.querySelector(`div#res`)
-    let somar = valor1 + valor2
-    resultado.innerHTML = `a soma entre os numeros ${valor1} e ${valor2}, é igual a ${somar}`
-}
+// function soma(){
+//     let valor1 = 5
+//     let valor2 = 5
+//     let resultado = document.querySelector(`div#res`)
+//     let somar = valor1 + valor2
+//     resultado.innerHTML = `a soma entre os numeros ${valor1} e ${valor2}, é igual a ${somar}`
+// }
 
+
+// function clicar(){
+//     let valor1 = prompt(`Digite um numero: `)
+//     let valor2 = prompt(`Digite outro numero: `)
+//     let somar = Number(valor1) + Number(valor2)
+//     alert(`A soma entre o numero ${valor1} + ${valor2} é igual a : ${somar}`)
+// }
 
 function clicar(){
-    let valor1 = prompt(`Digite um numero: `)
-    let valor2 = prompt(`Digite outro numero: `)
-    let somar = Number(valor1) + Number(valor2)
-    alert(`A soma entre o numero ${valor1} + ${valor2} é igual a : ${somar}`)
+    let resultado = document.querySelector(`div#res`)
+    resultado.innerHTML = `Mostra a msg`
 }
-
