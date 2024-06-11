@@ -20,5 +20,5 @@
 
 
 for(let valor1 = 1; valor1 <=10; valor1 ++){
-    console.log(`Contando ${valor1}`)
+    console.log(valor1)
 }
