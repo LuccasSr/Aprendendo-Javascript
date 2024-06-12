@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section#container {
+  text-align: center;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+input#texto1 {
+  width: 55%;
+  height: 50px;
+  
+}
+
+button#botao {
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10%;
+  border: solid rgb(79, 54, 189) 1px; 
+  background-color: pink;
+  padding: 10px;
+  
+  
+}
+
+p#res {
+  width: 50%;
+  height: 50px;
+  margin-left: 410px;
+  margin-top: 10px;
+}
