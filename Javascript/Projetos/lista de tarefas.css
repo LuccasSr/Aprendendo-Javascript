@@ -5,29 +5,112 @@
 }
 
 section#container {
-  text-align: center;
-  padding: 15px;
-}
-
-h1 {
-  font-size: 30pt;
-}
-
-input#texto1 {
-  width: 55%;
-  height: 50px;
   
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: auto auto;
+  align-items: center;
+  
+  
+  }
+  
+  h1 {
+    font-size: 30pt;
+    text-align: center;
+    padding: 10px;
+    }
+    
+    input#texto1 {
+      width: 80%;
+      height: 120px;
+      font-size: 15pt;
+      padding-left: 10%;
+    
+      
 }
 
-button#botao {
-  height: 50px;
+button#bb {
+  height: 120px;
+  width: 20%;
   cursor: pointer;
-  border-radius: 10%;
+  border-top-right-radius:  10%;
   border: solid rgb(79, 54, 189) 1px; 
   background-color: pink;
   padding: 10px;
+  border: none;
+
   
-  
+}
+
+main{
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: auto auto;
+  /* border: solid 1px blue; */
+  padding-top: 40px ;
+
+}
+
+.item-icon{
+  flex: 20%;
+  /* border: 1px solid blue; */
+  text-align: center;
+  font-size: 2rem;
+
+}
+.item-nome{
+  flex: 55%;
+  /* border: 1px solid orange; */
+  font-size: 15pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.item-botao{
+  flex: 25%;
+  /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.delete{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  height: 80px;
+  font-size: 13pt;
+
+}
+
+.checkmark-circle-outline{
+  color: green;
+
+}
+
+.item{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 0 20px rgb(211, 208, 208);
+  margin-bottom: 2%;
+  cursor: pointer;
+
+
+}
+
+.item.clicado{
+  background-color: rgb(215, 253, 215);
+}
+
+.item.clicado .item-nome{
+  text-decoration: line-through;
+  color: rgb(165, 161, 161);
 }
 
 p#res {
@@ -35,4 +118,5 @@ p#res {
   height: 50px;
   margin-left: 410px;
   margin-top: 10px;
+  margin: auto auto;
 }

@@ -7,19 +7,47 @@
     <link rel="stylesheet" href="lista de tarefas.css" />
   </head>
   <body>
+    <h1>Lista de tarefas</h1>
     <section id="container">
-      <div id="profile">
-        <h1>Lista de Tarefas</h1>
-        <input
-          type="text"
-          placeholder=" Digite um item para adicionar na lista:"
-          id="texto1"
-        />
-        <button id="botao" onclick="verificar()">Adicionar</button>
-      </div>
+      <input
+        type="text"
+        id="texto1"
+        placeholder="Digite o item para adicionar na lista:"
+      />
+      <button id="bb" onclick="addtarefa()">Adicionar</button>
     </section>
-    <p id="res"></p>
+    <main id="arealista">
+      <!-- <div class="item">
+        
+        <div class="item-icon">
+          <ion-icon name="ellipse-outline" class="ellipse-outline"></ion-icon>
+        </div>
+
+        <div class="item-nome">Teste de tarefa</div>
+
+        <div class="item-botao">
+          <button class="delete"><ion-icon name="trash-outline"></ion-icon>Deletar</button>
+        </div>
+      </div>
+
+      <div class="item clicado">
+        
+        <div class="item-icon" >
+          <ion-icon name="checkmark-circle-outline" class="checkmark-circle-outline"></ion-icon>
+        </div>
+
+        <div class="item-nome">Teste de tarefa</div>
+
+        <div class="item-botao">
+          <button class="delete"><ion-icon name="trash-outline"></ion-icon>Deletar</button>
+        </div>
+      </div> -->
+    </main>
+
+     
     
+    
+
     
     <script
       type="module"
@@ -29,6 +57,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-        <script src="lista de tarefas.js"></script>
+    <script src="lista de tarefas.js"></script>
   </body>
 </html>
