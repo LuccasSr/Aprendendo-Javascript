@@ -47,8 +47,10 @@ function marcarTarefa(id){
         item.classList.add('clicado')
 
         let icone = document.getElementById('icone_' + id)
-        icone.classList.remove('mdi-ellipse-outline')
-        icone.classList.add('mdi-checkmark-circle-outline')
+        icone.classList.remove('ellipse-outline')
+        icone.classList.add('checkmark-circle-outline')
+        icone.setAttribute(`name`, "checkmark-circle-outline") // Faltou essa atributte para adicionar 
+
     }
 
 }
