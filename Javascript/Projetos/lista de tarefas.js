@@ -50,6 +50,7 @@ function marcarTarefa(id){
         icone.removeAttribute(`name`,"clicado")
         icone.setAttribute(`className`,'checkmark-circle-outline')
         icone.setAttribute(`name`, "checkmark-circle-outline") // Faltou essa atributte para adicionar 
+        item.parentNode.appendChild(item); // para quando clicar para selecionar a msg da lista, que desça para o ultimo item adicionado
 
     }
     else{
