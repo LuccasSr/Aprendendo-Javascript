@@ -48,3 +48,9 @@ function clicar(){
     let resultado = document.querySelector(`div#res`)
     resultado.innerHTML = `Mostra a msg`
 }
+
+
+    
+
+
+

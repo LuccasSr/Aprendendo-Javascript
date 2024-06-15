@@ -47,11 +47,20 @@ function marcarTarefa(id){
         item.classList.add('clicado')
 
         let icone = document.getElementById('icone_' + id)
-        icone.removeAttribute(`name`)
+        icone.removeAttribute(`name`,"clicado")
         icone.setAttribute(`className`,'checkmark-circle-outline')
         icone.setAttribute(`name`, "checkmark-circle-outline") // Faltou essa atributte para adicionar 
 
     }
+    else{
+      item.classList.remove('clicado')
+      let icone = document.getElementById('icone_' + id)
+        icone.removeAttribute(`name`)
+        icone.setAttribute(`className`,'ellipse-outline')
+        icone.setAttribute(`name`, "ellipse-outline")
+
+    }
+    
 
 }
 // criamos esse addEventListener, para poder adicionar os itens tambem com o enter

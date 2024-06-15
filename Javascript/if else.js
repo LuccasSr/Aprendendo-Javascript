@@ -51,3 +51,4 @@ function verificar_cor(){
     }
 
 }
+
