@@ -17,8 +17,6 @@
 // for(let valor = 1; valor <=10; valor++){
 //     console.log(`Contando ${valor}`)
 // }
-
-
-for(let valor1 = 1; valor1 <=10; valor1 ++){
-    console.log(valor1)
+for(let valor1 = 1; valor1 <=10; valor1++){
+    document.querySelector(`div#res`).innerHTML += `${valor1}  <br>`  
 }
